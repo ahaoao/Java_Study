@@ -1,0 +1,24 @@
+IO流简介：
+    概述：
+        I（Input输入）/O（Output输出）流，是java中常用来传输数据的方式
+    划分：
+    按照流向分：
+        输入流：读数据
+
+        输出流：写数据
+    按照操作分：
+        字节流：以字节为单位来操作数据
+            InputStream：字节输入流的顶层抽象类
+                FileInputStream：普通的字节输入流
+                BufferedInputStream：高效的字节输入流（也叫字节缓冲输入流）
+            OutputStream：字节输出流的顶层
+                FileOutputStream：普通的字节输出流
+                BufferedOutputStream：高效的字节输出流（也叫字节缓冲输出流）
+
+        字符流：以字符为单位来操作数据
+            Reader：字符输入流的顶层抽象类
+                FileReader：普通的字符输入流
+                BufferedInputReader：高效的字符输入流（也叫字符缓冲输入流）
+            Writer：字符输出流的顶层抽象类
+                FileWriter：普通的字符输出流
+                BufferedOutputWriter：高效的字符输出流（也叫字符缓冲输出流）
